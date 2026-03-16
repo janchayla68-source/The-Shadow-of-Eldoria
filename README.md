@@ -23,9 +23,13 @@ PYGAME
    git clone https://github.com/janchayla68-source/The-Shadow-of-Eldoria.git
 2. เข้าไปในโฟลเดอร์ของโปรเจคต์:
    cd the-shadow-of-eldoria
-3. ติดตั้ง Library ที่เกี่ยวข้องผ่านไฟล์ requirements.txt:
+3. สร้างสภาพแวดล้อมจำลอง
+   python -m venv venv
+   เปิดใช้งาน
+   venv\Scripts\activate
+4. ติดตั้ง Library ที่เกี่ยวข้องผ่านไฟล์ requirements.txt:
    pip install -r requirements.txt
-4. รันเกมด้วยคำสั่ง:
+5. รันเกมด้วยคำสั่ง:
    python main.py
 
    วิธีการควบคุมเกม (Controls)
